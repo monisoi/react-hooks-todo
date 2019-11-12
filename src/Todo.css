@@ -1,0 +1,74 @@
+.Todo-area {
+  width: 550px;
+  color: #4d4d4d;
+}
+
+.Todo-form {
+  background: white;
+  display: flex;
+  height: 65px;
+  border: 0.5px solid #c0c0c0;
+  align-items: center;
+}
+
+.Todo-form-complete-all {
+  width: 10%;
+}
+
+.Todo-form-input {
+  font-size: 24px;
+  width: 90%;
+  border-style: none;
+  text-align: left;
+}
+
+.Todo-task {
+  background: white;
+  display: flex;
+  height: 65px;
+  border: 0.5px solid #c0c0c0;
+  align-items: center;
+}
+
+.Todo-task-complete {
+  width: 10%;
+}
+
+.Todo-task-name {
+  font-size: 24px;
+  width: 80%;
+  text-align: left;
+}
+
+.Todo-task-delete {
+  width: 10%;
+}
+
+.Todo-control {
+  display: flex;
+  flex-direction: row;
+  height: 41px;
+  background: white;
+  align-items: center;
+  font-size: 14px
+}
+
+.Todo-control-left-num {
+  text-align: left;
+  display: inline-block;
+  width: 30%;
+  margin: 0em 1em;
+}
+
+.Todo-control-display-button {
+  text-align: center;
+  display: inline;
+  margin: 0em 1em;
+}
+
+.Todo-control-delete-completed {
+  text-align: right;
+  display: inline-block;
+  width: 30%;
+  margin: 0em 1em;
+}
